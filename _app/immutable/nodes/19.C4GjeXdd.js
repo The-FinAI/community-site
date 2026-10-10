@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import{p as e,u as t,a,e as r,$ as m}from"../chunks/rDtjF86v.js";import{h as n}from"../chunks/BlO6_Xfh.js";import{g as p}from"../chunks/Dnw4KvjA.js";function $(s,o){e(o,!0),t(()=>{p("/admin/economy?tab=resources",{replaceState:!0})}),n("6od63i",c=>{r(()=>{m.title="Economy · Admin · The Fin AI"})}),a()}export{$ as component};

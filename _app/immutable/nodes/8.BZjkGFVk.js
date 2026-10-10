@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import{p as a,u as o,a as t,e as s,$ as r}from"../chunks/rDtjF86v.js";import{h as p}from"../chunks/BlO6_Xfh.js";import{g as c}from"../chunks/Dnw4KvjA.js";function $(m,e){a(e,!0),o(()=>{c("/admin/access?tab=permissions",{replaceState:!0})}),p("gulvnr",n=>{s(()=>{r.title="Access · Admin · The Fin AI"})}),t()}export{$ as component};

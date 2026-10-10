@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import{p as t,u as a,a as o,e as r,$ as s}from"../chunks/rDtjF86v.js";import{h as c}from"../chunks/BlO6_Xfh.js";import{g as p}from"../chunks/Dnw4KvjA.js";function $(m,e){t(e,!0),a(()=>{p("/admin/access?tab=officers",{replaceState:!0})}),c("z79tc1",f=>{r(()=>{s.title="Access · Admin · The Fin AI"})}),o()}export{$ as component};

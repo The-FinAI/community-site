@@ -1,0 +1,1 @@
+import{w as r}from"./UHuTpqEu.js";const o=r(null);let s=1;function i(n){return typeof window>"u"?Promise.resolve(!1):new Promise(e=>{o.set({id:s++,...n,resolve:e})})}function f(n){o.update(e=>(e==null||e.resolve(n),null))}export{o as a,i as c,f as r};

@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Fin AI · Community</title>
+    <meta name="theme-color" content="#f5f1e8" />
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <script>
+      // No-FOUC theme: apply saved theme before first paint (default light · editorial).
+      try {
+        var t = localStorage.getItem('theme');
+        if (t !== 'light' && t !== 'dark') t = 'light';
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {
+        document.documentElement.setAttribute('data-theme', 'light');
+      }
+      // Skin preview: ?skin=ink | ?skin=swiss sticks for this browser; ?skin=default clears it.
+      try {
+        var q = new URLSearchParams(location.search).get('skin');
+        if (q !== null) { if (q === 'ink' || q === 'swiss') localStorage.setItem('skin', q); else localStorage.removeItem('skin'); }
+        var sk = localStorage.getItem('skin');
+        if (sk === 'ink' || sk === 'swiss') document.documentElement.setAttribute('data-skin', sk);
+      } catch (e) {}
+      // Apply saved locale to <html lang> before first paint so i18n picks it up.
+      try {
+        var lc = localStorage.getItem('locale');
+        if (lc !== 'en' && lc !== 'zh' && lc !== 'ja' && lc !== 'fr') {
+          var n = (navigator.language || 'en').toLowerCase();
+          lc = n.indexOf('zh') === 0 ? 'zh' : n.indexOf('ja') === 0 ? 'ja' : n.indexOf('fr') === 0 ? 'fr' : 'en';
+        }
+        document.documentElement.setAttribute('lang', lc);
+      } catch (e) {
+        document.documentElement.setAttribute('lang', 'en');
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..600&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/_app/immutable/entry/start.CNrKgzYW.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/Dnw4KvjA.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/rDtjF86v.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/UHuTpqEu.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/-UyI9lYi.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/Cxljbvgb.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/C6_lee2n.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/B0XwC4Ot.js" rel="modulepreload">
+		<link href="/_app/immutable/entry/app.DRRMHdpb.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/C9EtBnsu.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/C2CDMjEf.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CWj6FrbW.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/tOzXdwxG.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/C4uiS_Td.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DvmNNOmN.js" rel="modulepreload">
+		<link href="/_app/immutable/nodes/0.BQkgqoNv.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/C0UZpKNk.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DdjF8EcF.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DIFf-_u2.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/BCPDmmij.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/RXc3q9x1.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/rgE338nO.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/Cb23TNiZ.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/B08B5jt4.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/DxMpahDt.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/Cz9dMUx-.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/D5-VbPQ9.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/CVSktJHw.js" rel="modulepreload">
+		<link href="/_app/immutable/chunks/vG1E7v58.js" rel="modulepreload">
+		<link href="/_app/env.js" rel="modulepreload">
+		
+		<link href="/_app/immutable/assets/Icon.DiZsXnQY.css" rel="stylesheet">
+		<link href="/_app/immutable/assets/0.D9IUlAW0.css" rel="stylesheet">
+  </head>
+  <body data-sveltekit-preload-data="hover">
+    <div style="display: contents">
+			<script>
+				{
+					__sveltekit_81cc1n = {
+						base: "",
+						env: null
+					};
+
+					const element = document.currentScript.parentElement;
+
+					import("/_app/env.js").then(({ env }) => {
+						__sveltekit_81cc1n.env = env;
+
+						Promise.all([
+							import("/_app/immutable/entry/start.CNrKgzYW.js"),
+							import("/_app/immutable/entry/app.DRRMHdpb.js")
+						]).then(([kit, app]) => {
+							kit.start(app, element);
+						});
+					});
+				}
+			</script>
+		</div>
+  </body>
+</html>

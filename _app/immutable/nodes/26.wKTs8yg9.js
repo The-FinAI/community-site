@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import{p as t,u as o,a,e as r,$ as p}from"../chunks/rDtjF86v.js";import{h as s}from"../chunks/BlO6_Xfh.js";import{g as m}from"../chunks/Dnw4KvjA.js";function $(n,e){t(e,!0),o(()=>{m("/admin/projects?tab=venues",{replaceState:!0})}),s("1vd5g2t",c=>{r(()=>{p.title="Projects · Admin · The Fin AI"})}),a()}export{$ as component};
