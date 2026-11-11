@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import{p as o,u as t,a,e as r,$ as m}from"../chunks/DAOoegTf.js";import{h as p}from"../chunks/D_z87ktG.js";import{g as n}from"../chunks/HfQ5ogEq.js";function $(s,e){o(e,!0),t(()=>{n("/admin/economy?tab=types",{replaceState:!0})}),p("10efgz9",c=>{r(()=>{m.title="Economy · Admin · The Fin AI"})}),a()}export{$ as component};

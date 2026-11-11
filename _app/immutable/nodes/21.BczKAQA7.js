@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import{p as t,u as o,a,e as r,$ as p}from"../chunks/DAOoegTf.js";import{h as s}from"../chunks/D_z87ktG.js";import{g as m}from"../chunks/HfQ5ogEq.js";function $(c,e){t(e,!0),o(()=>{m("/admin/projects?tab=roles",{replaceState:!0})}),s("t22pby",n=>{r(()=>{p.title="Projects · Admin · The Fin AI"})}),a()}export{$ as component};

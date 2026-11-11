@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import{p as t,u as a,a as o,e as r,$ as p}from"../chunks/DAOoegTf.js";import{h as i}from"../chunks/D_z87ktG.js";import{g as n}from"../chunks/HfQ5ogEq.js";function $(s,e){t(e,!0),a(()=>{n("/admin/review",{replaceState:!0})}),i("157jwbn",m=>{r(()=>{p.title="Unit applications · The Fin AI"})}),o()}export{$ as component};
