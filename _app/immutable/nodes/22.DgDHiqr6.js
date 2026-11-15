@@ -1,0 +1,1 @@
+import"../chunks/CWj6FrbW.js";import{p as t,u as a,a as o,e as r,$ as s}from"../chunks/DqF73Ep7.js";import{h as i}from"../chunks/DucZj0Ok.js";import{g as p}from"../chunks/CLOZUS5S.js";function d(m,e){t(e,!0),a(()=>{p("/admin/guild?tab=skills",{replaceState:!0})}),i("1jhsesf",n=>{r(()=>{s.title="Guild · Admin · The Fin AI"})}),o()}export{d as component};
